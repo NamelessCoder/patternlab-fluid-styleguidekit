@@ -1,0 +1,10 @@
+{
+  "name": "namelesscoder/patternlab-fluid-styleguidekit",
+  "description": "Fluid-based style guide kit for Pattern Lab.",
+  "license": "MIT",
+  "keywords": ["fluid", "pattern lab", "styleguide"],
+  "type": "patternlab-styleguidekit",
+  "require": {
+    "pattern-lab/styleguidekit-assets-default": "^3.0.0"
+  }
+}
