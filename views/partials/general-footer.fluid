@@ -1,4 +1,4 @@
-<script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">{patternData -> f:format.raw()}</script>
+<script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data"><f:format.raw>{patternData}</f:format.raw></script>
 
 <script>
   var scriptLoader = {

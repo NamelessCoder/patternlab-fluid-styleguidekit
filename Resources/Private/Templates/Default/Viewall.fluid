@@ -10,7 +10,7 @@
                     </h2>
 
                     <div class="sg-pattern-body">
-                        {partial.patternDesc -> f:format.raw()}
+                        <f:format.raw>{partial.patternDesc}</f:format.raw>
                     </div>
                 </div>
             </f:if>
@@ -40,7 +40,7 @@
                     <div class="sg-pattern-extra" id="sg-pattern-extra-{partial.patternPartial}"></div>
 
                     <div class="sg-pattern-example">
-                        {partial.patternPartialCode -> f:format.raw()}
+                        <f:format.raw>{partial.patternPartialCode}</f:format.raw>
                     </div>
 
                     <script type="text/json" id="sg-pattern-data-{partial.patternPartial}" class="sg-pattern-data">
